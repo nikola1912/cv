@@ -1,0 +1,121 @@
+{
+	"theme": "#434a54",
+
+	"personal": [
+		{
+			"label": "Name",
+			"value": "Nikola Jovanović"
+		},
+		{
+			"label": "Residence",
+			"value": "Kruševac, Serbia"
+		},
+		{
+			"label": "Phone Number",
+			"value": "+381 65 2678005"
+		},
+		{
+			"label": "Email",
+			"value": "nikola.jov1912@gmail.com"
+		},
+		{
+			"label": "GitHub",
+			"value": "github.com/nikola1912"
+		},
+		{
+			"label": "LinkedIn",
+			"value": "linkedin.com/in/nikola1912"
+		}
+	],
+
+	"languages": [
+		{
+			"language": "Serbian",
+			"level": "Native"
+		},
+		{
+			"language": "English",
+			"level": "Fluent"
+		}
+	],
+
+	"interests": ["Programming", "Reading", "Music", "Movies", "Video Games", "Table Tennis"],
+
+	"summary": [
+		"JavaScript Developer who specializes in developing Full Stack Web applications. Highly developed communication skills, highly proactive, flexible and willing to learn new things. Curious and hard working, able to quickly and efficiently learn new technologies.",
+		"Experienced in development, DevOps and infrastructure engineering, able to adapt to your needs and find the best solution to your problems and project ideas. Strong organizational and technical skills allow me to provide you with the best possible end product, along with a clean, readable and well documented code base."
+	],
+
+	"experience": [
+		{
+			"title": "Fullstack Developer",
+			"company": "Montecha · Belgrade, Serbia",
+			"date": "April 2020 - Present",
+			"content": [
+				"Working in a Kanban oriented team environment creating multiple JAM stack applications.",
+				"Created multiple React applications using Next.js with rendering techniques such as server-side rendering and static site generation.",
+				"Created unit, integration and end-to-end tests using Jest and Cypress.io.",
+				"Created a backend running a GraphQL API on a Fastify server. Also implemented different microservices through AWS Lambda functions which interact with other AWS services like: S3, SQS, SES, RDS.",
+				"Created a PostgreSQL database using raw SQL queries. Hosted the database on AWS RDS and implemented database migrations and seeding through AWS Lambda functions.",
+				"Implemented authentication and authorization flow for an admin dashboard application using Auth0.",
+				"Created a fully functional, multi-environment, serverless, AWS infrastructure through IaC using Serverless Framework.",
+				"Implemented a CI/CD pipeline through GitHub Actions using AWS CLI."
+			]
+		},
+		{
+			"title": "Frontend Developer",
+			"company": "Quanterix · Boston, Massachusetts",
+			"date": "February 2021 - Present",
+			"content": [
+				"Working as part of the Montecha team in a multinational company environment.",
+				"Had exposure to large scale SCRUM multi-project management.",
+				"Applying microservice concepts to the frontend using the microfrontend framework called Single SPA.",
+				"Creating a large React application using technologies such as TypeScript, Redux and React Query.",
+				"Creating a company wide component library and frontend development kit using React, Rollup and Material UI components and theming."
+			]
+		}
+	],
+
+	"skills": [
+		{
+			"label": "JavaScript, TypeScript, Node.js",
+			"level": 100
+		},
+		{
+			"label": "React.js, Redux, MobX, React Query",
+			"level": 100
+		},
+		{
+			"label": "Material UI, Chakra UI, Tailwind CSS",
+			"level": 100
+		},
+		{
+			"label": "Jest, Cypress.io",
+			"level": 100
+		},
+		{
+			"label": "Webpack, Babel",
+			"level": 100
+		},
+		{
+			"label": "Express, Fastify",
+			"level": 70
+		},
+		{
+			"label": "REST, GraphQL",
+			"level": 70
+		},
+		{
+			"label": "PostgreSQL",
+			"level": 70
+		},
+		{
+			"label": "Python",
+			"level": 80
+		},
+		{
+			"label": "Serverless Framework, AWS CDK",
+			"level": 90
+		}
+	]
+}
