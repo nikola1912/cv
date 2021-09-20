@@ -1,10 +1,14 @@
 <script>
 	import data from '$data';
 	import Skill from '$components/Skill.svelte';
+	import SaveAsPdf from '$components/SaveAsPdf.svelte';
 </script>
 
 <main>
-	<h1>Nikola Jovanović</h1>
+	<header>
+		<h1>Nikola Jovanović</h1>
+		<SaveAsPdf />
+	</header>
 	<section>
 		<div class="content">
 			<summary>
@@ -54,7 +58,10 @@
 		width: 535px;
 	}
 
-	h1 {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		padding: 13px 0 15px 0;
 		margin: 0 0 10px 0;
 		border-bottom: 1px solid #d2d2d2;

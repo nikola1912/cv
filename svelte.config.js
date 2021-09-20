@@ -1,5 +1,4 @@
 import path from 'path';
-
 import adapter from '@sveltejs/adapter-static';
 
 const GITHUB_REPO = '/cv';
