@@ -2,12 +2,14 @@ import path from 'path';
 
 import adapter from '@sveltejs/adapter-static';
 
+const GITHUB_REPO = '/cv';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		appDir: 'internal',
 		paths: {
-			base: '/cv'
+			base: process.env.NODE_ENV === 'production' ? GITHUB_REPO : ''
 		},
 		target: '#svelte',
 		adapter: adapter(),
