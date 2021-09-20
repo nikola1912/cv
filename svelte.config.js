@@ -3,8 +3,11 @@ import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
-export default {
+const config = {
 	kit: {
+		paths: {
+			base: '/cv'
+		},
 		target: '#svelte',
 		adapter: adapter(),
 		vite: {
@@ -17,3 +20,5 @@ export default {
 		}
 	}
 };
+
+export default config;
