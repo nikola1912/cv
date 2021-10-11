@@ -8,8 +8,7 @@
 	}
 </script>
 
-<a href={SEJDA_HTML_TO_PDF_URL} on:click={saveAsPdf}>Save as PDF</a>
-
+<!-- <a href={SEJDA_HTML_TO_PDF_URL} on:click={saveAsPdf}>Save as PDF</a> -->
 <style>
 	a {
 		outline: 0 none !important;
