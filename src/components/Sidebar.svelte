@@ -3,7 +3,7 @@
 </script>
 
 <aside style="background: {data.theme}">
-	<img alt="profile" src="profile.png" />
+	<img alt="profile" src="profile.jpg" />
 	<section>
 		<h2>Personal</h2>
 		<ul>

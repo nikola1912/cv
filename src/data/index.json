@@ -43,16 +43,48 @@
 
 	"summary": [
 		"JavaScript Developer who specializes in developing Full Stack web applications. Highly developed communication skills, highly proactive, flexible and willing to learn new things. Curious and hard working, able to quickly and efficiently learn new technologies.",
-		"Experienced in development, DevOps and infrastructure engineering, able to adapt to your needs and find the best solution to your problems and project ideas. Strong organizational and technical skills allow me to provide you with the best possible end product, along with a clean, readable and well documented code base."
+		"Experienced in development, testing, DevOps and infrastructure engineering, able to adapt to your needs and find the best solution to your problems and project ideas. Strong organizational and technical skills allow me to provide you with the best possible end product, along with a clean, readable and well documented code base."
 	],
 
 	"experience": [
+		{
+			"title": "Software Engineer",
+			"company": "3ap · Belgrade, Serbia",
+			"date": "September 2022 - Present",
+			"content": [
+				"Worked on an internal back office application for managing various employee data, company knowledgebase and events and service uptime monitoring.",
+				"Worked on digitalizing an internal offer creation process for a university client based in Zürich."
+			]
+		},
+		{
+			"title": "Software Engineer",
+			"company": "Celsius Network · Belgrade, Serbia",
+			"date": "April 2022 - August 2022",
+			"content": [
+				"Worked on creating a back office dashboard app for a crypto staking application used for tracking various crypto statistics and parameters.",
+				"Created a React based application used by company partners and admins for adjusting crypto staking app settings and tracking user statistics and usage data.",
+				"Worked on a NestJS based backend running a GraphQL API for a PostgreSQL database deployed to AWS RDS.",
+				"Developed a documentation website in Next.js and Strapi CMS for various APIs and SDKs the company provides."
+			]
+		},
+		{
+			"title": "Frontend Developer",
+			"company": "Quanterix · Boston, Massachusetts",
+			"date": "February 2021 - April 2022",
+			"content": [
+				"Worked as part of the Montecha team in a multinational company environment.",
+				"Had exposure to large scale SCRUM multi-project management.",
+				"Applied microservice concepts to the frontend using the microfrontend framework called Single SPA.",
+				"Created a large React application using technologies such as TypeScript, Redux and React Query.",
+				"Created a company wide component library and frontend development kit using React, Rollup and Material UI components and theming."
+			]
+		},
 		{
 			"title": "Fullstack Developer",
 			"company": "Montecha · Belgrade, Serbia",
 			"date": "April 2020 - April 2022",
 			"content": [
-				"Working in a Kanban oriented team environment creating multiple JAM stack applications.",
+				"Worked in a Kanban oriented team environment creating multiple JAM stack applications.",
 				"Created multiple React applications using Next.js with rendering techniques such as server-side rendering and static site generation.",
 				"Created unit, integration and end-to-end tests using Jest and Cypress.io.",
 				"Created a backend running a GraphQL API on a Fastify server. Also implemented different microservices through AWS Lambda functions which interact with other AWS services like: S3, SQS, SES, RDS.",
@@ -61,28 +93,6 @@
 				"Created a fully functional, multi-environment, serverless, AWS infrastructure through IaC using Serverless Framework.",
 				"Implemented a CI/CD pipeline through GitHub Actions using AWS CLI."
 			]
-		},
-		{
-			"title": "Frontend Developer",
-			"company": "Quanterix · Boston, Massachusetts",
-			"date": "February 2021 - April 2022",
-			"content": [
-				"Working as part of the Montecha team in a multinational company environment.",
-				"Had exposure to large scale SCRUM multi-project management.",
-				"Applying microservice concepts to the frontend using the microfrontend framework called Single SPA.",
-				"Creating a large React application using technologies such as TypeScript, Redux and React Query.",
-				"Creating a company wide component library and frontend development kit using React, Rollup and Material UI components and theming."
-			]
-		},
-		{
-			"title": "Software Engineer",
-			"company": "Celsius Network · Belgrade, Serbia",
-			"date": "April 2022 - Present",
-			"content": [
-				"Working on implementing a dashboard for a crypto staking application used for tracking various crypto statistics and parameters.",
-				"Creating a React based application used by company partners and admins for adjusting crypto staking app settings and tracking user statistics and usage data.",
-				"Working on a NestJS based backend and implementing a GraphQL API for a PostgreSQL database deployed to AWS RDS."
-			]
 		}
 	],
 
@@ -90,6 +100,10 @@
 		{
 			"label": "JavaScript, TypeScript, Node.js",
 			"level": 100
+		},
+		{
+			"label": "Next.js, Remix",
+			"level": 90
 		},
 		{
 			"label": "React.js, Redux, MobX, React Query",
@@ -125,7 +139,7 @@
 		},
 		{
 			"label": "Serverless Framework, AWS CDK",
-			"level": 90
+			"level": 70
 		}
 	]
 }
