@@ -4,142 +4,139 @@
 	"personal": [
 		{
 			"label": "Name",
-			"value": "Nikola Jovanović"
+			"value": "Stefan Šajkarević"
 		},
 		{
 			"label": "Residence",
-			"value": "Kruševac, Serbia"
+			"value": "Belgrade, Serbia"
 		},
 		{
 			"label": "Phone Number",
-			"value": "+381 65 2678005"
+			"value": "+381 60 0431353"
 		},
 		{
 			"label": "Email",
-			"value": "nikola.jov1912@gmail.com"
-		},
-		{
-			"label": "GitHub",
-			"value": "github.com/nikola1912"
-		},
-		{
-			"label": "LinkedIn",
-			"value": "linkedin.com/in/nikola1912"
-		}
-	],
-
-	"languages": [
-		{
-			"language": "Serbian",
-			"level": "Native"
-		},
-		{
-			"language": "English",
-			"level": "Fluent"
+			"value": "stefansajkarevic@gmail.com"
 		}
 	],
 
 	"interests": ["Programming", "Reading", "Music", "Movies", "Video Games", "Table Tennis"],
 
 	"summary": [
-		"JavaScript Developer who specializes in developing Full Stack web applications. Highly developed communication skills, highly proactive, flexible and willing to learn new things. Curious and hard working, able to quickly and efficiently learn new technologies.",
-		"Experienced in development, testing, DevOps and infrastructure engineering, able to adapt to your needs and find the best solution to your problems and project ideas. Strong organizational and technical skills allow me to provide you with the best possible end product, along with a clean, readable and well documented code base."
+		"As a Political Sciences student, I have developed a strong understanding of the political landscape, both domestically and internationally. Through my coursework, I have gained valuable analytical and research skills, as well as a deep understanding of policy and governance. Additionally, my experience as a journalist has honed my ability to communicate complex ideas clearly and concisely, as well as my ability to conduct interviews, research, and fact-checking."
 	],
 
 	"experience": [
 		{
-			"title": "Software Engineer",
-			"company": "3ap · Belgrade, Serbia",
-			"date": "September 2022 - Present",
+			"title": "Journalist",
+			"company": "Magazine Student · Belgrade, Serbia",
+			"date": "11/2020 - Present",
 			"content": [
-				"Worked on an internal back office application for managing various employee data, company knowledgebase and events and service uptime monitoring.",
-				"Worked on digitalizing an internal offer creation process for a university client based in Zürich."
+				"Writing for the oldest student magazine in Serbia in a great and dynamic environment.",
+				"Researching and reporting on wide range of topics related to student life, student organizations, and academic programs.",
+				"Writing articles on various topics, I have honed my writing skills and have become adept at creating engaging and informative articles that resonate with our readers.",
+				"Learned to work effectively in a team environment to ensure that our publication is produced on schedule and to a high standard of quality."
 			]
 		},
 		{
-			"title": "Software Engineer",
-			"company": "Celsius Network · Belgrade, Serbia",
-			"date": "April 2022 - August 2022",
+			"title": "Journalist",
+			"company": "Venturi · Kruševac, Serbia",
+			"date": "09/2017 - 06/2020",
 			"content": [
-				"Worked on creating a back office dashboard app for a crypto staking application used for tracking various crypto statistics and parameters.",
-				"Created a React based application used by company partners and admins for adjusting crypto staking app settings and tracking user statistics and usage data.",
-				"Worked on a NestJS based backend running a GraphQL API for a PostgreSQL database deployed to AWS RDS.",
-				"Developed a documentation website in Next.js and Strapi CMS for various APIs and SDKs the company provides."
+				"Local annual magazine composed of young people, based around problems regarding youth in our local community.",
+				"Developed strong communication and interpersonal skills and have learned to navigate conflicts and build consensus in a collaborative work environment.",
+				"Learned the importance of multitasking and effective time management. Became skilled at juggling multiple deadlines and priorities and have learned to adapt quickly to changes in our editorial calendar."
+			]
+		}
+	],
+
+	"experienceeee": [
+		{
+			"title": "Journalist",
+			"company": "Magazine Student · Belgrade, Serbia",
+			"date": "11/2020 - Present",
+			"content": [
+				"Writing for the oldest student magazine in Serbia in a great and dynamic environment.",
+				"Researching and reporting on wide range of topics related to student life, student organizations, and academic programs. I have developed strong research skills and the ability to synthesize complex information into clear and concise articles.",
+				"Through writing multiple articles on various topics I have honed my writing skills and have become adept at crafting engaging and informative articles that resonate with our readers.",
+				"As a member of the editorial team, I have learned to work effectively in a team environment to ensure that our publication is produced on schedule and to a high standard of quality. I have developed strong communication and interpersonal skills, and have learned to navigate conflicts and build consensus in a collaborative work environment.",
+				"Multitasking and time management: Working for a student magazine has taught me the importance of multitasking and effective time management. I have become skilled at juggling multiple deadlines and priorities, and have learned to adapt quickly to changes in our editorial calendar."
 			]
 		},
 		{
-			"title": "Frontend Developer",
-			"company": "Quanterix · Boston, Massachusetts",
-			"date": "February 2021 - April 2022",
+			"title": "Journalist",
+			"company": "Venturi · Kruševac, Serbia",
+			"date": "09/2017 - 06/2020",
 			"content": [
-				"Worked as part of the Montecha team in a multinational company environment.",
-				"Had exposure to large scale SCRUM multi-project management.",
-				"Applied microservice concepts to the frontend using the microfrontend framework called Single SPA.",
-				"Created a large React application using technologies such as TypeScript, Redux and React Query.",
-				"Created a company wide component library and frontend development kit using React, Rollup and Material UI components and theming."
+				"Local annual magazine composed of young people, based around problems regarding youth in our local community."
 			]
+		}
+	],
+
+	"education": [
+		{
+			"title": "Student",
+			"company": "Faculty of Political Sciences, University of Belgrade · Belgrade, Serbia",
+			"date": "10/2020 - Present"
 		},
 		{
-			"title": "Fullstack Developer",
-			"company": "Montecha · Belgrade, Serbia",
-			"date": "April 2020 - April 2022",
-			"content": [
-				"Worked in a Kanban oriented team environment creating multiple JAM stack applications.",
-				"Created multiple React applications using Next.js with rendering techniques such as server-side rendering and static site generation.",
-				"Created unit, integration and end-to-end tests using Jest and Cypress.io.",
-				"Created a backend running a GraphQL API on a Fastify server. Also implemented different microservices through AWS Lambda functions which interact with other AWS services like: S3, SQS, SES, RDS.",
-				"Created a PostgreSQL database using raw SQL queries. Hosted the database on AWS RDS and implemented database migrations and seeding through AWS Lambda functions.",
-				"Implemented authentication and authorization flow for an admin dashboard application using Auth0.",
-				"Created a fully functional, multi-environment, serverless, AWS infrastructure through IaC using Serverless Framework.",
-				"Implemented a CI/CD pipeline through GitHub Actions using AWS CLI."
-			]
+			"title": "High School",
+			"company": "Gimnazija Kruševac · Kruševac, Serbia",
+			"date": "09/2016 - 06/2020"
+		}
+	],
+
+	"languageSkills": [
+		{
+			"label": "Serbian",
+			"level": 100,
+			"grade": "Native"
+		},
+		{
+			"label": "English",
+			"level": 90,
+			"grade": "C2"
+		},
+		{
+			"label": "Italian",
+			"level": 65,
+			"grade": "B1"
+		},
+		{
+			"label": "Romanian",
+			"level": 20,
+			"grade": "A1"
 		}
 	],
 
 	"skills": [
 		{
-			"label": "JavaScript, TypeScript, Node.js",
+			"label": "Microsoft Office",
 			"level": 100
 		},
 		{
-			"label": "Next.js, Remix",
-			"level": 90
-		},
-		{
-			"label": "React.js, Redux, MobX, React Query",
+			"label": "Microsoft Word",
 			"level": 100
 		},
 		{
-			"label": "Material UI, Chakra UI, Tailwind CSS",
+			"label": "Microsoft Excel",
 			"level": 100
 		},
 		{
-			"label": "Jest, Cypress.io",
-			"level": 100
+			"label": "Microsoft Outlook",
+			"level": 85
 		},
 		{
-			"label": "Webpack, Babel",
-			"level": 100
-		},
-		{
-			"label": "Express, Fastify, NestJS",
-			"level": 70
-		},
-		{
-			"label": "REST, GraphQL",
-			"level": 70
-		},
-		{
-			"label": "PostgreSQL",
-			"level": 70
-		},
-		{
-			"label": "Python",
+			"label": "Social Media",
 			"level": 80
 		},
 		{
-			"label": "Serverless Framework, AWS CDK",
-			"level": 70
+			"label": "Facebook",
+			"level": 80
+		},
+		{
+			"label": "Google / Google Drive",
+			"level": 80
 		}
 	]
 }

@@ -1,12 +1,13 @@
 <script>
 	import data from '$data';
 	import Skill from '$components/Skill.svelte';
+	import LanguageSkill from '$components/LanguageSkill.svelte';
 	import SaveAsPdf from '$components/SaveAsPdf.svelte';
 </script>
 
 <main>
 	<header>
-		<h1>Nikola Jovanović</h1>
+		<h1>Stefan Šajkarević</h1>
 		<SaveAsPdf />
 	</header>
 	<section>
@@ -39,6 +40,28 @@
 			{/each}
 		</ol>
 	</section>
+	<section class="experience">
+		<h2>Education</h2>
+		<ol>
+			{#each data.education as { title, company, date, content }}
+				<li>
+					<div class="date">{date}</div>
+					<h3>{title}</h3>
+					<div class="heading">{company}</div>
+				</li>
+			{/each}
+		</ol>
+	</section>
+	<section class="skills">
+		<h2>Language Skills</h2>
+		<ol>
+			{#each data.languageSkills as { label, level, grade }}
+				<li>
+					<LanguageSkill {label} {level} {grade} />
+				</li>
+			{/each}
+		</ol>
+	</section>
 	<section class="skills">
 		<h2>Skills</h2>
 		<ol>
@@ -56,6 +79,7 @@
 		left: 235px;
 		position: relative;
 		width: 535px;
+		font-size: 1.05em;
 	}
 
 	header {
@@ -68,8 +92,8 @@
 	}
 
 	h2 {
-		padding: 15px 0;
-		margin: 0 0 15px 0;
+		padding: 15px 0 10px 0;
+		margin: 0 0 10px 0;
 		border-bottom: 1px solid #d2d2d2;
 	}
 

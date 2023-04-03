@@ -3,7 +3,7 @@
 </script>
 
 <aside style="background: {data.theme}">
-	<img alt="profile" src="profile.jpg" />
+	<img alt="profile" src="profile.png" />
 	<section>
 		<h2>Personal</h2>
 		<ul>
@@ -11,17 +11,6 @@
 				<li>
 					<span class="personal-label">{label}</span><br />
 					{value}
-				</li>
-			{/each}
-		</ul>
-	</section>
-	<section>
-		<h2>Languages</h2>
-		<ul>
-			{#each data.languages as { language, level }}
-				<li>
-					<span>{language}</span>
-					<span class="language-level">{level}</span>
 				</li>
 			{/each}
 		</ul>
